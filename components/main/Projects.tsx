@@ -8,23 +8,26 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        My Projects
+        Portfolio
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/celestia.png"
+          title="Celestia"
+          description=" We has proudly assumed the roles of validator and node runner in the Celestia project. 
+                        Leveraging our expertise in blockchain validation and node management, we have seamlessly integrated into the Celestia ecosystem to ensure its reliability and security."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/dymension.png"
+          title="Dymension"
+          description="We proudly serves as both a validator and a node runner within the Dymension project. 
+          Our team's expertise in blockchain validation and node management ensures the seamless operation and security of the Dymension network. "
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/wormhole.png"
+          title="Wormhole"
+          description=" LucasiNode proudly serves as a validator and node runner in the ambitious Wormhole project. 
+          With our deep expertise in blockchain validation and node management, we ensure the reliability and security of the Celestia network. "
         />
       </div>
     </div>

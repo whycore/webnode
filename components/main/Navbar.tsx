@@ -19,20 +19,20 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            LucasiNode
           </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
-              About me
+              About Us
             </a>
             <a href="#skills" className="cursor-pointer">
-              Skills
+              Missions
             </a>
             <a href="#projects" className="cursor-pointer">
-              Projects
+              Portfolio
             </a>
           </div>
         </div>
@@ -46,11 +46,15 @@ const Navbar = () => {
               width={24}
               height={24}
             />
+            
           ))}
         </div>
       </div>
     </div>
   );
+  
 };
 
 export default Navbar;
+
+

@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Know More About Us
           </h1>
         </motion.div>
 
@@ -33,12 +33,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+           
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Securing Blockchain Futures {" "}
             </span>
-            project exprience
+            LucasiNode Leads the Way!
           </span>
         </motion.div>
 
@@ -46,14 +46,17 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Welcome to LucasiNode, your trusted partner in blockchain node validation services. At LucasiNode, 
+          we specialize in providing cutting-edge solutions for validators seeking to secure and empower blockchain networks worldwide.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+                     <a href="#skills" className="cursor-pointer">
+              Learn More!
+            </a>
+          
         </motion.a>
       </div>
 

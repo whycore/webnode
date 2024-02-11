@@ -7,7 +7,7 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -34,15 +34,15 @@ const Footer = () => {
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
+                        <FaInstagram />
                         <span className="text-[15px] ml-[6px]">Instagram</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
+                        <RxTwitterLogo />
                         <span className="text-[15px] ml-[6px]">Twitter</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
+                        <RxLinkedinLogo />
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
                     </p>
                 </div>
@@ -58,13 +58,13 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">lucasinode88@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
-            <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+            <div className="mb-[40px] text-[15px] text-center">
+                &copy; LucasiNode 2024 Inc. All rights reserved
             </div>
         </div>
     </div>
